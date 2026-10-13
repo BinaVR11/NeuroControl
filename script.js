@@ -23,7 +23,7 @@ const CONFIG = {
     // ==================================================
     // CAMBIAR IMAGEN: PANTALLA PRINCIPAL / INICIO
     // ==================================================
-    homeImage: "assets/intro.jpg",
+    homeImage: "assets/bver.jpg",
 
 
     // ==================================================
