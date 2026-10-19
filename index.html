@@ -22,25 +22,14 @@
       </div>
     </main>
 
-    <!-- SELECCIÓN DE NIVEL -->
-    <main class="view" id="levelsView" aria-label="Selección de nivel">
-      <header class="section-header reveal">
-        <div>
-          <p class="eyebrow">EXPERIENCIA BINAES</p>
-          <h2>SELECCIONA UN NIVEL</h2>
-          <div class="header-line"></div>
-        </div>
-        <img src="assets/logoazul.png" alt="BINAES" class="small-logo">
-      </header>
-
-      <section class="levels-grid" id="levelsGrid"></section>
-      <div class="selector-photo reveal" id="levelsImageSlot">
-        <!-- IMAGEN OPCIONAL: cambiar CONFIG.levelsImage en script.js -->
-        <img id="levelsImage" class="levels-photo-img" alt="Imagen de apoyo">
-        <div class="image-slot-label levels-image-label">
-          <strong>ESPACIO PARA IMAGEN</strong>
-          <span>CAMBIAR EN script.js → CONFIG.levelsImage</span>
-        </div>
+    <!-- SELECCIÓN INTERACTIVA: sustituye la selección anterior por segundo.html -->
+    <main class="view" id="levelsView" aria-label="Selección interactiva de nivel">
+      <div class="interactive-levels">
+      
+        <main class="stage">
+          <object id="building" data="vectorial-interactivo.svg" type="image/svg+xml" aria-label="Edificio con siete niveles interactivos"></object>
+        </main>
+        
       </div>
     </main>
 
@@ -81,3 +70,4 @@
   <script src="script.js"></script>
 </body>
 </html>
+
